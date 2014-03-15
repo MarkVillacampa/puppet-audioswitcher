@@ -5,7 +5,7 @@
 #   include audioswitcher
 class audioswitcher {
   package { 'AudioSwitcher':
-    provider => 'appdmg_eula',
-    source   => 'https://www.macupdate.com/download/26433/audioswitcher-1.5.1.dmg'
+    provider => 'compressed_app',
+    source   => 'http://www.spikesoft.net/downloads/AudioSwitcher-1.5.1.zip'
   }
 }
